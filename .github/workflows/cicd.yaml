@@ -47,5 +47,5 @@ jobs:
             --insecure \
             --grpc-web \
             --username admin \
-            --password ${{ secrets.DOCKERHUB_USERNAME }}
+            --password ${{ secrets.ARGOCD_PASSWORD }}
           argocd app sync python-app
